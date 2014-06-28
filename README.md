@@ -9,6 +9,29 @@ Install with [npm](npmjs.org):
 npm i equivalent --save-dev
 ```
 
+## Usage
+
+```js
+var equal = require('equivalent');
+equal('a/b', 'a\\c');
+//=> 'false'
+
+equal('a/b', 'a\\b');
+//=> 'true'
+
+equal('a/b', 'a/b/');
+//=> 'true'
+
+equal('/a/b/', '/a/b/');
+//=> 'true'
+
+equal('/a/b/', '/a/b');
+//=> 'true'
+
+equal('/a/b/', '/a//b');
+//=> 'true'
+```
+
 ## Author
 
 **Jon Schlinkert**
