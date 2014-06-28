@@ -1,0 +1,46 @@
+{
+  "name": "equivalent",
+  "description": "Return true if the given file paths are equal.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/equivalent",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/equivalent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/equivalent/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/equivalent/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "file",
+    "filepath",
+    "path",
+    "paths",
+    "same",
+    "compare",
+    "comparison",
+    "equivalent",
+    "equal"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.6",
+    "chai": "~1.9.1",
+    "mocha": "*"
+  }
+}
